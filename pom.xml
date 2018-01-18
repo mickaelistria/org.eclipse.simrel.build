@@ -1,267 +1,556 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+t::<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.eclipse.simrel</groupId>
-	<artifactId>build</artifactId>
-	<version>4.8.0-SNAPSHOT</version>
+	<artifactId>oxygen</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
-		<tycho-version>1.0.0</tycho-version>
-		<trainName>photon</trainName>
-		<referenceRepo>staging/oxygen</referenceRepo>
-		<eclipse.repo.url>http://download.eclipse.org/eclipse/updates/4.7/R-4.7.1a-201710090410/</eclipse.repo.url>
-		<simrel.aggregator.repo.url>http://download.eclipse.org/cbi/updates/aggregator/headless/4.7/</simrel.aggregator.repo.url>
-		<cbi.analyzers.repo.url>http://download.eclipse.org/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
+		<tycho-version>1.1.0-SNAPSHOT</tycho-version>
 	</properties>
+
+	<modules>
+<!-- 		<module>regular</module> -->
+<!-- 		<module>site</module> -->
+<!-- 		<module>exceptions</module> -->
+		<module>categories</module>
+	</modules>
+
+	<repositories>
+<repository>
+	<id>_eclipse_updates_4.8milestones_S-4.8M4-201712062000_	</id>
+	<url>http://download.eclipse.org/eclipse/updates/4.8milestones/S-4.8M4-201712062000/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_cft_1.2.0.M2_	</id>
+	<url>http://download.eclipse.org/cft/1.2.0.M2/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_pmf_release-0.4.0	</id>
+	<url>http://download.eclipse.org/pmf/release-0.4.0	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_emf_emf_updates_2.14milestones_	</id>
+	<url>http://download.eclipse.org/modeling/emf/emf/updates/2.14milestones/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_rt_ecf_3.13.8_site.p2	</id>
+	<url>http://download.eclipse.org/rt/ecf/3.13.8/site.p2	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_tools_gef_updates_legacy_releases_4.0.0_gef-master_1952	</id>
+	<url>http://download.eclipse.org/tools/gef/updates/legacy/releases/4.0.0_gef-master_1952	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_tools_gef_updates_milestones_5.1.0M3_gef-master_4574	</id>
+	<url>http://download.eclipse.org/tools/gef/updates/milestones/5.1.0M3_gef-master_4574	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_amalgam_updates_milestones_1.8.0RC3_oxygen	</id>
+	<url>http://download.eclipse.org/modeling/amalgam/updates/milestones/1.8.0RC3/oxygen	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_emf_compare_updates_milestones_3.3_S201706130827	</id>
+	<url>http://download.eclipse.org/modeling/emf/compare/updates/milestones/3.3/S201706130827	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_ecoretools_updates_milestones_3.3.0RC4_oxygen	</id>
+	<url>http://download.eclipse.org/ecoretools/updates/milestones/3.3.0RC4/oxygen	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_mmt_atl_updates_milestones_4.0_S201711061018	</id>
+	<url>http://download.eclipse.org/mmt/atl/updates/milestones/4.0/S201711061018	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_mmt_qvto_updates_milestones_3.8.0_S201710310601	</id>
+	<url>http://download.eclipse.org/mmt/qvto/updates/milestones/3.8.0/S201710310601	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_emft_mwe_updates_releases_2.9.1_	</id>
+	<url>http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.9.1/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_datatools_1.14.0.201701131441_repository	</id>
+	<url>http://download.eclipse.org/datatools/1.14.0.201701131441/repository	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_webtools_downloads_drops_R3.9.0_R-3.9.0-20170613094504_repository_	</id>
+	<url>http://download.eclipse.org/webtools/downloads/drops/R3.9.0/R-3.9.0-20170613094504/repository/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_webtools_downloads_drops_C3.2.0_I-C3.2.0-20100614204142_repository_	</id>
+	<url>http://download.eclipse.org/webtools/downloads/drops/C3.2.0/I-C3.2.0-20100614204142/repository/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_libra_releases_R-0.3.1-201609011955	</id>
+	<url>http://download.eclipse.org/libra/releases/R-0.3.1-201609011955	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_mylyn_drops_3.24.0_v20170705-2102	</id>
+	<url>http://download.eclipse.org/mylyn/drops/3.24.0/v20170705-2102	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_mylyn_docs_releases_3.0.19	</id>
+	<url>http://download.eclipse.org/mylyn/docs/releases/3.0.19	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_tools_cdt_builds_9.4_	</id>
+	<url>http://download.eclipse.org/tools/cdt/builds/9.4/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_tools_cdt_launchbar_milestones_oxygen.2	</id>
+	<url>http://download.eclipse.org/tools/cdt/launchbar/milestones/oxygen.2	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_tm_updates_4.3milestones_20170425	</id>
+	<url>http://download.eclipse.org/tm/updates/4.3milestones/20170425	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_tm_terminal_updates_4.3milestones_rc4	</id>
+	<url>http://download.eclipse.org/tm/terminal/updates/4.3milestones/rc4	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_recommenders_updates_simrel_photon_2017-09-12_10-05-40	</id>
+	<url>http://download.eclipse.org/recommenders/updates/simrel/photon/2017-09-12_10-05-40	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_jwt_update-site-neon_	</id>
+	<url>http://download.eclipse.org/jwt/update-site-neon/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_technology_dltk_updates-dev_milestone_5.9m2_	</id>
+	<url>http://download.eclipse.org/technology/dltk/updates-dev/milestone/5.9m2/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_rt_rap_tools_3.4_20171031-2346_	</id>
+	<url>http://download.eclipse.org/rt/rap/tools/3.4/20171031-2346/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_technology_subversive_4.0_neon-site_	</id>
+	<url>http://download.eclipse.org/technology/subversive/4.0/neon-site/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_technology_actf_1.5_milestones_	</id>
+	<url>http://download.eclipse.org/technology/actf/1.5/milestones/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_mpc_drops_1.7.0_v20171123-1633	</id>
+	<url>http://download.eclipse.org/mpc/drops/1.7.0/v20171123-1633	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_technology_epp_logging_milestones_	</id>
+	<url>http://download.eclipse.org/technology/epp/logging/milestones/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_emf_cdo_drops_R20170614-0227	</id>
+	<url>http://download.eclipse.org/modeling/emf/cdo/drops/R20170614-0227	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_oomph_drops_release_1.8.0	</id>
+	<url>http://download.eclipse.org/oomph/drops/release/1.8.0	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_birt_update-site_oxygen-interim_	</id>
+	<url>http://download.eclipse.org/birt/update-site/oxygen-interim/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_mat_oxygen_RC4_update-site_	</id>
+	<url>http://download.eclipse.org/mat/oxygen/RC4/update-site/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_mdt_uml2_updates_5.3	</id>
+	<url>http://download.eclipse.org/modeling/mdt/uml2/updates/5.3	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_mdt_ocl_updates_milestones_6.4.0_S201712111714	</id>
+	<url>http://download.eclipse.org/modeling/mdt/ocl/updates/milestones/6.4.0/S201712111714	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_acceleo_updates_milestones_3.7_S201705121344	</id>
+	<url>http://download.eclipse.org/acceleo/updates/milestones/3.7/S201705121344	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_gmp_gmf-runtime_updates_releases_R201706061437	</id>
+	<url>http://download.eclipse.org/modeling/gmp/gmf-runtime/updates/releases/R201706061437	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_gmp_gmf-notation_updates_releases_R201706061354	</id>
+	<url>http://download.eclipse.org/modeling/gmp/gmf-notation/updates/releases/R201706061354	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_m2t_xpand_updates_releases_R201605260315_	</id>
+	<url>http://download.eclipse.org/modeling/m2t/xpand/updates/releases/R201605260315/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_emf_query_updates_releases_R201706061326	</id>
+	<url>http://download.eclipse.org/modeling/emf/query/updates/releases/R201706061326	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_emf_validation_updates_releases_R201706061352	</id>
+	<url>http://download.eclipse.org/modeling/emf/validation/updates/releases/R201706061352	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_emf_transaction_updates_releases_R201706061339	</id>
+	<url>http://download.eclipse.org/modeling/emf/transaction/updates/releases/R201706061339	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_tmf_xtext_updates_releases_2.13.0_	</id>
+	<url>http://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.13.0/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_tools_pdt_updates_5.2-m3	</id>
+	<url>http://download.eclipse.org/tools/pdt/updates/5.2-m3	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_tools_ptp_builds_oxygen_milestones_1.RC2	</id>
+	<url>http://download.eclipse.org/tools/ptp/builds/oxygen/milestones/1.RC2	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_tools_ptp_builds_remote_oxygen_milestones_RC3	</id>
+	<url>http://download.eclipse.org/tools/ptp/builds/remote/oxygen/milestones/RC3	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_bpel_updates_oxygen_1.1.1	</id>
+	<url>http://download.eclipse.org/bpel/updates/oxygen/1.1.1	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_bpmn2-modeler_updates_oxygen_1.4.2	</id>
+	<url>http://download.eclipse.org/bpmn2-modeler/updates/oxygen/1.4.2	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_mdt_bpmn2_updates_oxygen_1.4.0	</id>
+	<url>http://download.eclipse.org/modeling/mdt/bpmn2/updates/oxygen/1.4.0	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_emft_eef_updates_releases_1.5_R201601141612_	</id>
+	<url>http://download.eclipse.org/modeling/emft/eef/updates/releases/1.5/R201601141612/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_emft_eef_updates_milestones_2.0_S20170531111419	</id>
+	<url>http://download.eclipse.org/modeling/emft/eef/updates/milestones/2.0/S20170531111419	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_linuxtools_update-photon-m3	</id>
+	<url>http://download.eclipse.org/linuxtools/update-photon-m3	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_linuxtools_update-photon-docker-m3	</id>
+	<url>http://download.eclipse.org/linuxtools/update-photon-docker-m3	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_facet_updates_integration_1.3.0_I201710300832_	</id>
+	<url>http://download.eclipse.org/facet/updates/integration/1.3.0/I201710300832/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_mdt_modisco_updates_integration_1.2.0_I201712080934_	</id>
+	<url>http://download.eclipse.org/modeling/mdt/modisco/updates/integration/1.2.0/I201712080934/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_egit_updates-4.9.1	</id>
+	<url>http://download.eclipse.org/egit/updates-4.9.1	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_egit_github_updates-4.9	</id>
+	<url>http://download.eclipse.org/egit/github/updates-4.9	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_egf_updates_oxygen_official	</id>
+	<url>http://download.eclipse.org/egf/updates/oxygen/official	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_objectteams_updates_ot2.7_201712091238	</id>
+	<url>http://download.eclipse.org/objectteams/updates/ot2.7/201712091238	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_graphiti_updates_milestones_S-0.15.0M4-201712120847_	</id>
+	<url>http://download.eclipse.org/graphiti/updates/milestones/S-0.15.0M4-201712120847/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_technology_m2e_milestones_1.8_1.8.0.20170516-2043	</id>
+	<url>http://download.eclipse.org/technology/m2e/milestones/1.8/1.8.0.20170516-2043	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_modeling_mdt_papyrus_updates_milestones_4.0_M2_main_	</id>
+	<url>http://download.eclipse.org/modeling/mdt/papyrus/updates/milestones/4.0/M2/main/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_scout_releases_7.1_7.1.0_004_Photon_M4_	</id>
+	<url>http://download.eclipse.org/scout/releases/7.1/7.1.0/004_Photon_M4/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_sapphire_9.1_repository	</id>
+	<url>http://download.eclipse.org/sapphire/9.1/repository	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_windowbuilder_WB_integration_4.7	</id>
+	<url>http://download.eclipse.org/windowbuilder/WB/integration/4.7	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_jubula_milestones_photon-m3	</id>
+	<url>http://download.eclipse.org/jubula/milestones/photon-m3	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_technology_swtbot_releases_2.6.0_	</id>
+	<url>http://download.eclipse.org/technology/swtbot/releases/2.6.0/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_ldt_releases_stable_1.4.1	</id>
+	<url>http://download.eclipse.org/ldt/releases/stable/1.4.1	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_tools_tcf_builds_1.5_milestones_rc4a	</id>
+	<url>http://download.eclipse.org/tools/tcf/builds/1.5/milestones/rc4a	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_diffmerge_updates_oxygen_official	</id>
+	<url>http://download.eclipse.org/diffmerge/updates/oxygen/official	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_m2e-wtp_milestones_oxygen_1.3_1.3.2.20170517-2015_	</id>
+	<url>http://download.eclipse.org/m2e-wtp/milestones/oxygen/1.3/1.3.2.20170517-2015/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_sphinx_previews	</id>
+	<url>http://download.eclipse.org/sphinx/previews	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_sirius_updates_releases_5.1.0_oxygen	</id>
+	<url>http://download.eclipse.org/sirius/updates/releases/5.1.0/oxygen	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_mmt_qvtd_updates_milestones_0.15.0_S201711010933	</id>
+	<url>http://download.eclipse.org/mmt/qvtd/updates/milestones/0.15.0/S201711010933	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_emfstore_rt_190	</id>
+	<url>http://download.eclipse.org/emfstore/rt/190	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_ecp_rt_tmp_1140	</id>
+	<url>http://download.eclipse.org/ecp/rt/tmp/1140	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_xwt_updates	</id>
+	<url>http://download.eclipse.org/xwt/updates	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_efxclipse_runtime-shared-released_3.0.0_site	</id>
+	<url>http://download.eclipse.org/efxclipse/runtime-shared-released/3.0.0/site	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_efxclipse_updates-released_3.0.0_site	</id>
+	<url>http://download.eclipse.org/efxclipse/updates-released/3.0.0/site	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_tracecompass_photon_milestones_m3_	</id>
+	<url>http://download.eclipse.org/tracecompass/photon/milestones/m3/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_rcptt_milestone_2.2.0_RC1_repository_	</id>
+	<url>http://download.eclipse.org/rcptt/milestone/2.2.0/RC1/repository/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_buildship_updates_e47_releases_2.x_2.2.0.v20171211-1404	</id>
+	<url>http://download.eclipse.org/buildship/updates/e47/releases/2.x/2.2.0.v20171211-1404	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_egerrit_updates_release_957	</id>
+	<url>http://download.eclipse.org/egerrit/updates/release/957	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_emf-parsley_milestones_	</id>
+	<url>http://download.eclipse.org/emf-parsley/milestones/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_viatra_updates_milestone_1.7.0.201710311615	</id>
+	<url>http://download.eclipse.org/viatra/updates/milestone/1.7.0.201710311615	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_eclemma_milestones_3.0.1-m1_	</id>
+	<url>http://download.eclipse.org/eclemma/milestones/3.0.1-m1/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_lsp4j_updates_releases_0.3.0_	</id>
+	<url>http://download.eclipse.org/lsp4j/updates/releases/0.3.0/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_lsp4e_releases_0.3.0_	</id>
+	<url>http://download.eclipse.org/lsp4e/releases/0.3.0/	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_usssdk_drops_release_1.1.0	</id>
+	<url>http://download.eclipse.org/usssdk/drops/release/1.1.0	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_collections_9.1.0.M2_repository	</id>
+	<url>http://download.eclipse.org/collections/9.1.0.M2/repository	</url>
+	<layout>p2</layout>
+</repository>
+<repository>
+	<id>_rt_rap_3.4_photon-20171101-1753_	</id>
+	<url>http://download.eclipse.org/rt/rap/3.4/photon-20171101-1753/	</url>
+	<layout>p2</layout>
+</repository>
+
+	</repositories>
+	
+	<pluginRepositories>
+   <pluginRepository>
+     <id>tycho-snapshots</id>
+     <url>https://repo.eclipse.org/content/repositories/tycho-snapshots/</url>
+   </pluginRepository>
+</pluginRepositories>
 
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.eclipse.tycho.extras</groupId>
-				<artifactId>tycho-eclipserun-plugin</artifactId>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
 				<version>${tycho-version}</version>
-				<executions>
-					<execution>
-						<id>build-repo</id>
-						<phase>package</phase>
-						<goals>
-							<goal>eclipse-run</goal>
-						</goals>
-						<configuration>
-							<applicationsArgs>
-								<applicationsArg>-application</applicationsArg>
-								<applicationsArg>org.eclipse.cbi.p2repo.cli.headless</applicationsArg>
-								<applicationsArg>aggregate</applicationsArg>
-								<applicationsArg>--buildModel</applicationsArg>
-								<applicationsArg>${project.basedir}/simrel.aggr</applicationsArg>
-								<applicationsArg>--buildRoot</applicationsArg>
-								<applicationsArg>${project.build.directory}/repository</applicationsArg>
-								<applicationsArg>--eclipseLogLevel</applicationsArg>
-								<applicationsArg>INFO</applicationsArg>
-								<applicationsArg>--logLevel</applicationsArg>
-								<applicationsArg>INFO</applicationsArg>
-								<applicationsArg>--action</applicationsArg>
-								<applicationsArg>CLEAN_BUILD</applicationsArg>
-							</applicationsArgs>
-							<executionEnvironment>JavaSE-1.8</executionEnvironment>
-							<jvmArgs>
-								<jvmArg>-Xms256M</jvmArg>
-								<jvmArg>-Xmx2048M</jvmArg>
-							</jvmArgs>
-							<repositories>
-								<repository>
-									<id>eclipse</id>
-									<url>${eclipse.repo.url}</url>
-									<layout>p2</layout>
-								</repository>
-								<repository>
-									<id>simrel-aggregator</id>
-									<url>${simrel.aggregator.repo.url}</url>
-									<layout>p2</layout>
-								</repository>
-							</repositories>
-							<dependencies>
-								<dependency>
-									<artifactId>org.eclipse.cbi.p2repo.aggregator.engine.feature.feature.group</artifactId>
-									<type>p2-installable-unit</type>
-								</dependency>
-								<dependency>
-									<artifactId>org.eclipse.equinox.p2.core.feature</artifactId>
-									<type>eclipse-feature</type>
-								</dependency>
-								<dependency>
-									<artifactId>org.eclipse.equinox.core.feature</artifactId>
-									<type>eclipse-feature</type>
-								</dependency>
-							</dependencies>
-						</configuration>
-					</execution>
-					<execution>
-						<phase>verify</phase>
-						<id>repo-reports</id>
-						<goals>
-							<goal>eclipse-run</goal>
-						</goals>
-						<configuration>
-							<applicationsArgs>
-								<arg>-application</arg>
-								<arg>org.eclipse.cbi.p2repo.analyzers.repoReport</arg>
-							</applicationsArgs>
-							<jvmArgs>
-								<jvmArg>-DreportRepoDir=${project.build.directory}/repository/final</jvmArg>
-								<jvmArg>-DreportOutputDir=${project.build.directory}/repository/final/buildInfo</jvmArg>
-								<jvmArg>-DreferenceRepo=/home/data/httpd/download.eclipse.org/${referenceRepo}</jvmArg>
-								<jvmArg>-Xms256M</jvmArg>
-								<jvmArg>-Xmx2048M</jvmArg>
-							</jvmArgs>
-							<executionEnvironment>JavaSE-1.8</executionEnvironment>
-							<dependencies>
-								<dependency>
-									<artifactId>org.eclipse.cbi.p2repo.analyzers</artifactId>
-									<type>eclipse-plugin</type>
-								</dependency>
-								<dependency>
-									<artifactId>org.eclipse.equinox.p2.core.feature</artifactId>
-									<type>eclipse-feature</type>
-								</dependency>
-								<dependency>
-									<artifactId>org.eclipse.equinox.core.feature</artifactId>
-									<type>eclipse-feature</type>
-								</dependency>
-							</dependencies>
-							<repositories>
-								<repository>
-									<id>cbi-analyzers</id>
-									<url>${cbi.analyzers.repo.url}</url>
-									<layout>p2</layout>
-								</repository>
-								<repository>
-									<id>eclipse</id>
-									<url>${eclipse.repo.url}</url>
-									<layout>p2</layout>
-								</repository>
-							</repositories>
-						</configuration>
-					</execution>
-				</executions>
+				<extensions>true</extensions>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<environments>
+						<environment>
+							<os>macosx</os>
+							<ws>cocoa</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>ppc</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>ppc64</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>ppc64le</arch>
+						</environment>
+					</environments>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-	
-	<profiles>
-		<profile>
-			<id>validate</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.eclipse.tycho.extras</groupId>
-						<artifactId>tycho-eclipserun-plugin</artifactId>
-						<version>${tycho-version}</version>
-						<executions>
-							<execution>
-								<id>validate-repo</id>
-								<phase>test</phase>
-								<goals>
-									<goal>eclipse-run</goal>
-								</goals>
-								<configuration>
-									<applicationsArgs>
-										<applicationsArg>-application</applicationsArg>
-										<applicationsArg>org.eclipse.cbi.p2repo.cli.headless</applicationsArg>
-										<applicationsArg>aggregate</applicationsArg>
-										<applicationsArg>--buildModel</applicationsArg>
-										<applicationsArg>${project.basedir}/simrel.aggr</applicationsArg>
-										<applicationsArg>--buildRoot</applicationsArg>
-										<applicationsArg>${project.build.directory}/repository</applicationsArg>
-										<applicationsArg>--eclipseLogLevel</applicationsArg>
-										<applicationsArg>INFO</applicationsArg>
-										<applicationsArg>--logLevel</applicationsArg>
-										<applicationsArg>INFO</applicationsArg>
-										<applicationsArg>--action</applicationsArg>
-										<applicationsArg>VALIDATE</applicationsArg>
-									</applicationsArgs>
-									<jvmArgs>
-										<jvmArg>-Xms256M</jvmArg>
-										<jvmArg>-Xmx2048M</jvmArg>
-									</jvmArgs>
-									<executionEnvironment>JavaSE-1.8</executionEnvironment>
-									<repositories>
-										<repository>
-											<id>eclipse</id>
-											<url>${eclipse.repo.url}</url>
-											<layout>p2</layout>
-										</repository>
-										<repository>
-											<id>simrel-aggregator</id>
-											<url>${simrel.aggregator.repo.url}</url>
-											<layout>p2</layout>
-										</repository>
-									</repositories>
-									<dependencies>
-										<dependency>
-											<artifactId>org.eclipse.cbi.p2repo.aggregator.engine.feature.feature.group</artifactId>
-											<type>p2-installable-unit</type>
-										</dependency>
-										<dependency>
-											<artifactId>org.eclipse.equinox.p2.core.feature</artifactId>
-											<type>eclipse-feature</type>
-										</dependency>
-										<dependency>
-											<artifactId>org.eclipse.equinox.core.feature</artifactId>
-											<type>eclipse-feature</type>
-										</dependency>
-									</dependencies>
-								</configuration>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-		<profile>
-			<id>built-at-eclipse.org</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>com.google.code.maven-replacer-plugin</groupId>
-						<artifactId>replacer</artifactId>
-						<version>1.5.2</version>
-						<executions>
-							<execution>
-								<id>replace-url-to-local</id>
-								<phase>generate-sources</phase>
-								<goals>
-									<goal>replace</goal>
-								</goals>
-								<configuration>
-									<basedir>${project.basedir}</basedir>
-									<includes>
-										<include>*.aggr</include>
-										<include>*.aggrcon</include>
-									</includes>
-									<replacements>
-										<replacement>
-											<token>http://download.eclipse.org</token>
-											<value>file:/home/data/httpd/download.eclipse.org</value>
-										</replacement>
-									</replacements>
-								</configuration>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-		<profile>
-			<id>production</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.eclipse.tycho.extras</groupId>
-						<artifactId>tycho-eclipserun-plugin</artifactId>
-						<executions>
-							<execution>
-								<id>build-repo</id>
-								<configuration>
-									<applicationsArgs combine.children="append">
-										<applicationsArg>--production</applicationsArg>
-										<applicationsArg>emailFrom david_williams@eclipse.org</applicationsArg>
-										<applicationsArg>--emailFromName</applicationsArg>
-										<applicationsArg>${trainName}Aggregator</applicationsArg>
-										<applicationsArg>--logURL</applicationsArg>
-										<applicationsArg>${BUILD_URL}/console</applicationsArg>
-										<applicationsArg>--subjectPrefix</applicationsArg>
-										<applicationsArg>${trainName}Aggregation</applicationsArg>
-									</applicationsArgs>
-								</configuration>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
-	
 </project>

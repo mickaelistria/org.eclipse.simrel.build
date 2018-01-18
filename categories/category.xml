@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+
+	<description>
+	Aggregation files used for Simultaneous Release (yearly "release train").
+	</description>
+
+<category-def name="Application Development Frameworks" label="Application Development Frameworks">
+  <description>
+Frameworks supporting application development.
+  </description>
+</category-def>
+<category-def name="Business Intelligence, Reporting and Charting" label="Business Intelligence, Reporting and Charting">
+  <description>
+Tools to visualize information, create data-driven web pages, PDF documents and other content using data from a wide variety of sources.
+  </description>
+</category-def>
+<category-def name="Collaboration" label="Collaboration">
+  <description>
+Tools to foster collaboration between developers.
+  </description>
+</category-def>
+<category-def name="Database Development" label="Database Development">
+  <description>
+Tools to define and access a wide variety of databases.
+  </description>
+</category-def>
+<category-def name="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components">
+  <description>
+This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.
+  </description>
+</category-def>
+<category-def name="General Purpose Tools" label="General Purpose Tools">
+  <description>
+Tools that can be used by a wide variety of developers.
+  </description>
+</category-def>
+<category-def name="Linux Tools" label="Linux Tools">
+  <description>
+Linux Tools for C/C++ Testing and Profiling
+  </description>
+</category-def>
+<category-def name="Mobile and Device Development" label="Mobile and Device Development">
+  <description>
+Tools used to develop mobile and device applications.
+  </description>
+</category-def>
+<category-def name="Modeling" label="Modeling">
+  <description>
+Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).
+  </description>
+</category-def>
+<category-def name="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools">
+  <description>
+Tools to assit analysis of running code.
+  </description>
+</category-def>
+<category-def name="Programming Languages" label="Programming Languages">
+  <description>
+Tools to allow development with specific languages, such as Java and C++
+  </description>
+</category-def>
+<category-def name="SOA Development" label="SOA Development">
+  <description>
+Tools for SOA Developers
+  </description>
+</category-def>
+<category-def name="Testing" label="Testing">
+  <description>
+Frameworks supporting application testing.
+  </description>
+</category-def>
+<category-def name="Web, XML, Java EE and OSGi Enterprise Development" label="Web, XML, Java EE and OSGi Enterprise Development">
+  <description>
+Tools to help create web applications, including JavaScript, XML, XSL, XSD, HTML, XHTML, CSS, JSP, EJBs, Webservices, JPA tand OSGi Enterprise Applications
+  </description>
+</category-def>
+<category-def name="Cloud Tools" label="Cloud Tools">
+  <description>
+Tools for developing apps for the cloud and in the cloud, including IDE extensions, frameworks, container tools, and tools running the cloud themselves.
+  </description>
+</category-def>
+
+   
+<feature id="org.eclipse.equinox.sdk" version="0.0.0">
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.cft.server.core.feature" version="1.2.3.v201709151701">
+  <category name="Cloud Tools"/>
+</feature>
+<feature id="org.eclipse.cft.server.ui.feature" version="1.0.10.v201709151701">
+  <category name="Cloud Tools"/>
+</feature>
+<feature id="org.eclipse.cft.server.sdk" version="1.0.9.v201709151701">
+  <category name="Cloud Tools"/>
+</feature>
+<feature id="org.eclipse.pmf.core.feature" version="0.4.0.201705201427">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.pmf.xwt.feature" version="0.4.0.201705201427">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.sdk" version="0.0.0">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.e4.core.tools.feature.source" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.cvs" version="0.0.0">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.pde" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.jdt" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.pde.api.tools.ee.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.emf.sdk" version="2.14.0.v20171102-0636">
+  <category name="EclipseRT Target Platform Components"/>
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.sdk" version="2.14.0.v20171102-0636">
+  <category name="EclipseRT Target Platform Components"/>
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.oda.sdk" version="1.4.0.v20171102-0636">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.xsd.sdk" version="2.14.0.v20171102-0636">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.ecore.xcore.sdk" version="1.6.0.v20171102-0841">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.ecf.core" version="3.13.8.v20170715-2257">
+  <category name="Collaboration"/>
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.ecf.core" version="3.13.8.v20170715-2257">
+  <category name="Collaboration"/>
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.ecf.core.source" version="3.13.8.v20170715-2257">
+  <category name="Collaboration"/>
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.ecf.core.source" version="3.13.8.v20170715-2257">
+  <category name="Collaboration"/>
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.ecf.remoteservice.sdk.feature" version="3.13.8.v20170816-0246">
+  <category name="Collaboration"/>
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.ecf.remoteservice.sdk.feature" version="3.13.8.v20170816-0246">
+  <category name="Collaboration"/>
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.ecf.remoteservice.sdk.feature.source" version="3.13.8.v20170816-0246">
+  <category name="Collaboration"/>
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.ecf.remoteservice.sdk.feature.source" version="3.13.8.v20170816-0246">
+  <category name="Collaboration"/>
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.gef.sdk" version="3.11.0.201606061308">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.zest.sdk" version="1.7.0.201606061308">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.gef.common.sdk" version="5.0.0.201710300219">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.gef.geometry.sdk" version="5.0.2.201710300219">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.gef.graph.sdk" version="5.0.0.201710300219">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.gef.layout.sdk" version="5.0.0.201710300219">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.gef.dot.sdk" version="5.0.2.201710300219">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.gef.dot.user" version="5.0.2.201710300219">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.gef.fx.sdk" version="5.0.2.201710300219">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.gef.mvc.sdk" version="5.0.2.201710300219">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.gef.zest.sdk" version="5.0.2.201710300219">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.gef.cloudio.sdk" version="5.0.2.201710300219">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.gef.cloudio.user" version="5.0.2.201710300219">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.amalgam.explorer.activity.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.amalgam.explorer.contextual.core.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.compare.ide.ui" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.compare.uml2" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.compare.diagram.papyrus" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.compare.diagram.sirius" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.compare.egit" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.ecoretools.sdk" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.m2m.atl.sdk" version="4.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.m2m.qvt.oml.sdk" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.m2m.qvt.oml.sdk.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.m2m.qvt.oml.tools.coverage.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.m2m.qvt.oml.tools.coverage" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.mwe2.runtime.sdk" version="2.9.1">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.mwe.sdk" version="1.3.21">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.mwe2.language.sdk" version="2.9.1">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.datatools.sdk.feature" version="1.14.0.201701131441">
+  <category name="Database Development"/>
+</feature>
+<feature id="org.eclipse.datatools.enablement.sdk.feature" version="1.14.0.201701131441">
+  <category name="Database Development"/>
+</feature>
+<feature id="org.eclipse.wst.web_ui.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jst.enterprise_ui.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jst.ws.axis2tools.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jpt.dbws.eclipselink.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jpt.jaxb.eclipselink.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jpt.jaxb.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jpt.jpa.eclipselink.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jpt.jpa.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jpt.jpadiagrameditor.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jst.webpageeditor.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.wst.xml_ui.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.wst.xml_ui.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.wst.jsdt.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.wst.jsdt.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.wst.jsdt.chromium.debug.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.wst.jsdt.chromium.debug.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.wst.common.fproj" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.wst.server_adapters.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.wst.xsl.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jst.common.fproj.enablement.jdt" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jst.server_ui.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jst.server_adapters.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jst.server_adapters.ext.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jst.web_ui.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jsf.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jst.ws.jaxws.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jst.ws.cxf.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.jst.ws.jaxws.dom.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.libra.facet.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.libra.warproducts.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.libra.framework.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.libra.framework.editor.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.mylyn_feature" version="3.24.0.v20170704-1739">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.bugzilla_feature" version="3.24.0.v20170629-1737">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.trac_feature" version="3.24.0.v20170629-1737">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.cdt.mylyn" version="5.20.0.v20170629-2230">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.context_feature" version="3.24.0.v20170629-2230">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.pde_feature" version="3.24.0.v20170629-2230">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.java_feature" version="3.24.0.v20170629-2230">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.ide_feature" version="3.24.0.v20170629-2230">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.team_feature" version="3.24.0.v20170629-2230">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.cvs" version="1.16.0.v20170629-1738">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.git" version="1.16.0.v20170629-1738">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.hudson" version="1.16.0.v20170629-2231">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.gerrit.feature" version="2.15.0.v20170629-2231">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.gerrit.dashboard.feature" version="2.15.0.v20170629-2231">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.wikitext_feature" version="3.0.19.201711172000">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.cdt" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.cdt.sdk" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.cdt.debug.gdbjtag" version="0.0.0">
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.cdt.core.parser.upc.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.cdt.xlc.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.cdt.debug.ui.memory" version="0.0.0">
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.cdt.launch.remote" version="0.0.0">
+  <category name="Mobile and Device Development"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.cdt.launch.remote" version="0.0.0">
+  <category name="Mobile and Device Development"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.cdt.build.crossgcc" version="0.0.0">
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.cdt.bupc" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.cdt.msw" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.cdt.autotools" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.cdt.testsrunner.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.cdt.managedbuilder.llvm" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.cdt.gnu.multicorevisualizer" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.cdt.docker.launcher" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.launchbar" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.rse" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.rse" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.rse.useractions" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.rse.useractions" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.tm.terminal.feature" version="4.3.0.201706140544">
+  <category name="General Purpose Tools"/>
+  <category name="Linux Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.tm.terminal.feature" version="4.3.0.201706140544">
+  <category name="General Purpose Tools"/>
+  <category name="Linux Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.tm.terminal.feature" version="4.3.0.201706140544">
+  <category name="General Purpose Tools"/>
+  <category name="Linux Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.tm.terminal.view.rse.feature" version="4.3.0.201706140544">
+  <category name="General Purpose Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.tm.terminal.view.rse.feature" version="4.3.0.201706140544">
+  <category name="General Purpose Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.tm.terminal.connector.remote.feature" version="4.3.0.201706140544">
+  <category name="General Purpose Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.tm.terminal.connector.remote.feature" version="4.3.0.201706140544">
+  <category name="General Purpose Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.tm.terminal.connector.cdtserial.feature" version="4.3.0.201706140544">
+  <category name="Linux Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.tm.terminal.connector.cdtserial.feature" version="4.3.0.201706140544">
+  <category name="Linux Tools"/>
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.recommenders.rcp.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.recommenders.mylyn.rcp.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.recommenders.snipmatch.rcp.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.recommenders.news.rcp.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.jwt.feature" version="0.0.0">
+  <category name="SOA Development"/>
+</feature>
+<feature id="org.eclipse.dltk.core" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.dltk.ruby" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.dltk.tcl" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.dltk.xotcl" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.dltk.itcl" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.dltk.sh" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.dltk.rse" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.dltk.mylyn" version="0.0.0">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.rap.tools.feature" version="0.0.0">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.team.svn" version="0.0.0">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.team.svn.nl1" version="0.0.0">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.team.svn.mylyn" version="0.0.0">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.team.svn.source" version="0.0.0">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.team.svn.revision.graph" version="0.0.0">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.team.svn.m2e" version="0.0.0">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.actf.visualization.sdk" version="0.0.0" os="win32" ws="win32" arch="x86">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.actf.visualization" version="0.0.0" os="win32" ws="win32" arch="x86">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.actf.visualization.ui.pdt" version="0.0.0" os="win32" ws="win32" arch="x86">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.actf.visualization.ui.wst" version="0.0.0" os="win32" ws="win32" arch="x86">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.epp.mpc" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.epp.logging.aeri.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.net4j.sdk" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.cdo.sdk" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.cdo.dawn.sdk" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.cdo.epp" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.oomph.setup.sdk" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.oomph.targlets" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.oomph.preferences" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.oomph.projectconfig" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.oomph.workingsets" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.oomph.version" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.birt" version="4.7.0.v201706222054">
+  <category name="Business Intelligence, Reporting and Charting"/>
+</feature>
+<feature id="org.eclipse.birt.cshelp" version="4.7.0.v201706222054">
+  <category name="Business Intelligence, Reporting and Charting"/>
+</feature>
+<feature id="org.eclipse.birt.chart.cshelp" version="4.7.0.v201706222054">
+  <category name="Business Intelligence, Reporting and Charting"/>
+</feature>
+<feature id="org.eclipse.birt.doc" version="4.7.0.v201706222054">
+  <category name="Business Intelligence, Reporting and Charting"/>
+</feature>
+<feature id="org.eclipse.birt.example" version="4.7.0.v201706222054">
+  <category name="Business Intelligence, Reporting and Charting"/>
+</feature>
+<feature id="org.eclipse.birt.source" version="4.7.0.v201706222054">
+  <category name="Business Intelligence, Reporting and Charting"/>
+</feature>
+<feature id="org.eclipse.birt.osgi.runtime.sdk" version="4.7.0.v201706222054">
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.mat.feature" version="1.7.0.201706130745">
+  <category name="Performance, Profiling and Tracing Tools"/>
+</feature>
+<feature id="org.eclipse.mat.chart.feature" version="1.7.0.201706130745">
+  <category name="Performance, Profiling and Tracing Tools"/>
+</feature>
+<feature id="org.eclipse.uml2.sdk" version="5.3.0.v20170605-1616">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.ocl.all.sdk" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.ocl.all.sdk" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.ocl.all.sdk.source" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.ocl.all.sdk.source" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.ocl.examples" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.ocl.examples.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.acceleo" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.gmf" version="1.11.0.201706061437">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.gmf.runtime.sdk" version="1.11.0.201706061437">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.gmf.runtime.notation.sdk" version="1.11.0.201706061354">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.xpand.sdk" version="2.2.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.query.sdk" version="1.11.0.201706061326">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.validation.sdk" version="1.11.0.201706061352">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.transaction.sdk" version="1.11.0.201706061339">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.xtext.sdk" version="2.13.0">
+  <category name="General Purpose Tools"/>
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.xtext.sdk" version="2.13.0">
+  <category name="General Purpose Tools"/>
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.xtend.sdk" version="2.13.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.php" version="0.0.0">
+  <category name="Programming Languages"/>
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.php" version="0.0.0">
+  <category name="Programming Languages"/>
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.php.composer" version="0.0.0">
+  <category name="Programming Languages"/>
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.php.composer" version="0.0.0">
+  <category name="Programming Languages"/>
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.php.mylyn" version="0.0.0">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.php.phpunit.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.php.phpunit.feature" version="0.0.0">
+  <category name="Programming Languages"/>
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.php.profiler" version="0.0.0">
+  <category name="Performance, Profiling and Tracing Tools"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.php.profiler" version="0.0.0">
+  <category name="Performance, Profiling and Tracing Tools"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.php.rdt.sync" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.ptp" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.ptp.fortran" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.ptp.gem" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.ptp.pldt.upc" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.ptp.rm.jaxb.contrib" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.ptp.etfw.tau" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.photran" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.photran.intel" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.photran.xlf" version="0.0.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.ptp.debug.sdm" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.ptp.etfw.feedback.perfsuite" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.remote" version="3.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.remote.console" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.bpel.common.feature" version="1.1.1">
+  <category name="SOA Development"/>
+</feature>
+<feature id="org.eclipse.bpel.feature" version="1.1.1">
+  <category name="SOA Development"/>
+</feature>
+<feature id="org.eclipse.bpel.apache.ode.runtime.feature" version="1.1.1">
+  <category name="SOA Development"/>
+</feature>
+<feature id="org.eclipse.bpmn2.modeler" version="1.4.2">
+  <category name="SOA Development"/>
+</feature>
+<feature id="org.eclipse.bpmn2.modeler.runtime.jboss" version="1.4.2">
+  <category name="SOA Development"/>
+</feature>
+<feature id="org.eclipse.bpmn2.modeler.examples" version="1.4.2">
+  <category name="SOA Development"/>
+</feature>
+<feature id="org.eclipse.bpmn2.feature" version="1.4.0">
+  <category name="SOA Development"/>
+</feature>
+<feature id="org.eclipse.emf.eef.sdk-feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.eef.codegen.ecore-feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.linuxtools.cdt.libhover.devhelp.feature" version="6.2.0.201711011453">
+  <category name="Linux Tools"/>
+</feature>
+<feature id="org.eclipse.linuxtools.cdt.libhover.feature" version="6.2.0.201711011453">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.linuxtools.changelog" version="6.2.0.201711011453">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.linuxtools.gprof.feature" version="6.2.0.201711011453">
+  <category name="Performance, Profiling and Tracing Tools"/>
+</feature>
+<feature id="org.eclipse.linuxtools.oprofile.feature" version="6.2.0.201711011453" os="linux">
+  <category name="Performance, Profiling and Tracing Tools"/>
+</feature>
+<feature id="org.eclipse.linuxtools.rpm" version="6.2.0.201711011453">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.linuxtools.systemtap" version="6.2.0.201711011453" os="linux">
+  <category name="Performance, Profiling and Tracing Tools"/>
+</feature>
+<feature id="org.eclipse.linuxtools.callgraph.feature" version="6.2.0.201711011453" os="linux">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.linuxtools.valgrind" version="6.2.0.201711011453">
+  <category name="Performance, Profiling and Tracing Tools"/>
+</feature>
+<feature id="org.eclipse.linuxtools.gcov" version="6.2.0.201711011453">
+  <category name="Linux Tools"/>
+</feature>
+<feature id="org.eclipse.linuxtools.perf.feature" version="6.2.0.201711011453" os="linux">
+  <category name="Performance, Profiling and Tracing Tools"/>
+</feature>
+<feature id="org.eclipse.linuxtools.javadocs.feature" version="6.2.0.201711011453">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.linuxtools.man" version="6.2.0.201711011453">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.linuxtools.docker.feature" version="3.2.0.201711011453">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.linuxtools.vagrant.feature" version="3.2.0.201711011453">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.emf.facet.sdk.feature" version="1.3.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.modisco.sdk.feature" version="1.2.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.egit" version="4.9.1.201712030800-r">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.egit.mylyn" version="4.9.1.201712030800-r">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.egit.gitflow.feature" version="4.9.1.201712030800-r">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.mylyn.github.feature" version="4.9.0.201710071750-r">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.egf.sdk" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.objectteams.otdt" version="2.7.0">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.objectteams.otequinox" version="2.7.0">
+  <category name="EclipseRT Target Platform Components"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.objectteams.otequinox" version="2.7.0">
+  <category name="EclipseRT Target Platform Components"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.graphiti.feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.graphiti.feature.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.graphiti.feature.examples" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.graphiti.feature.examples.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.graphiti.sdk.feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.graphiti.sdk.feature.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.graphiti.sdk.plus.feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.graphiti.sdk.plus.feature.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.graphiti.export.feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.graphiti.export.feature.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.graphiti.feature.tools" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.graphiti.feature.tools.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.m2e.feature" version="1.8.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.m2e.logback.feature" version="1.8.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.m2e.sdk.feature" version="1.8.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.papyrus.sdk.feature" version="4.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.scout.sdk-feature" version="7.1.0">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.sapphire" version="9.1.0.201609301330">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.sapphire.modeling.xml" version="9.1.0.201609301330">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.sapphire.ui" version="9.1.0.201609301330">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.sapphire.ui.swt.gef" version="9.1.0.201609301330">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.sapphire.ui.swt.xml.editor" version="9.1.0.201609301330">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.sapphire.java" version="9.1.0.201609301330">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.sapphire.java.jdt" version="9.1.0.201609301330">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.sapphire.osgi" version="9.1.0.201609301330">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.sapphire.platform" version="9.1.0.201609301330">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.sapphire.sdk" version="9.1.0.201609301330">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.sapphire.source" version="9.1.0.201609301330">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.wb.core.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.wb.core.ui.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.wb.core.xml.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.wb.doc.user.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.wb.layout.group.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.wb.rcp.SWT_AWT_support" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.wb.rcp.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.wb.swing.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.wb.swt.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.wb.xwt.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.wb.core.java.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.wb.rcp.doc.user.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.wb.swing.doc.user.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.jubula.feature" version="6.0.0">
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.jubula.feature.launch.java" version="6.0.0">
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.jubula.feature.launch.rcp" version="6.0.0">
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.jubula.feature.api.core" version="4.0.0">
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.jubula.feature.api.core.source" version="4.0.0">
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.jubula.feature.source" version="6.0.0">
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.swtbot.ide" version="0.0.0">
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.swtbot" version="0.0.0">
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.swtbot.eclipse" version="0.0.0">
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.swtbot.eclipse.gef" version="0.0.0">
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.ldt" version="1.4.1">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.ldt.source" version="1.4.1">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.ldt.remote" version="1.4.1">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.ldt.remote.source" version="1.4.1">
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.tcf.cdt.feature" version="1.5.0.201704222134">
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.tcf.rse.feature" version="1.5.0.201706150333">
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.tcf.te.tcf.feature" version="1.5.0.201706112341">
+  <category name="Mobile and Device Development"/>
+</feature>
+<feature id="org.eclipse.tcf.te.tcf.launch.cdt.feature" version="1.5.0.201706112341">
+  <category name="Linux Tools"/>
+  <category name="Mobile and Device Development"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.tcf.te.tcf.launch.cdt.feature" version="1.5.0.201706112341">
+  <category name="Linux Tools"/>
+  <category name="Mobile and Device Development"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.tcf.te.tcf.launch.cdt.feature" version="1.5.0.201706112341">
+  <category name="Linux Tools"/>
+  <category name="Mobile and Device Development"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.emf.diffmerge.sdk.feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.m2e.wtp.feature" version="1.3.2">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.m2e.wtp.jaxrs.feature" version="1.3.2">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.m2e.wtp.jsf.feature" version="1.3.2">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.sonatype.m2e.mavenarchiver.feature" version="0.17.2">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.m2e.wtp.jpa.feature" version="1.3.2">
+  <category name="Web, XML, Java EE and OSGi Enterprise Development"/>
+</feature>
+<feature id="org.eclipse.sphinx.sdk" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.sirius.specifier" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.sirius.runtime.ide.eef" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.sirius.runtime.ide.xtext" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.sirius.samples" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.sirius.properties.feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.sirius.specifier.properties.feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.qvtd.master" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.qvtd.master.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.emfstore.sdk.feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.ecp.sdk.feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.ecp.emfforms.sdk.feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.xwt.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.xwt.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.xwt.source.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.xwt.source.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.xwt.workbench.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.xwt.workbench.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.xwt.workbench.source.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.xwt.workbench.source.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+  <category name="Programming Languages"/>
+</feature>
+<feature id="org.eclipse.fx.ide.feature" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.tracecompass.lttng2.kernel" version="0.0.0">
+  <category name="Performance, Profiling and Tracing Tools"/>
+</feature>
+<feature id="org.eclipse.tracecompass.lttng2.ust" version="0.0.0">
+  <category name="Performance, Profiling and Tracing Tools"/>
+</feature>
+<feature id="org.eclipse.tracecompass.gdbtrace" version="0.0.0">
+  <category name="Performance, Profiling and Tracing Tools"/>
+</feature>
+<feature id="org.eclipse.tracecompass.tmf.pcap" version="0.0.0">
+  <category name="Performance, Profiling and Tracing Tools"/>
+</feature>
+<feature id="org.eclipse.rcptt.platform" version="2.2.0">
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.buildship" version="2.2.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<feature id="org.eclipse.egerrit.feature" version="0.0.0">
+  <category name="Collaboration"/>
+</feature>
+<feature id="org.eclipse.emf.parsley.sdk" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.parsley.sdk.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.parsley.cdo.feature" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.emf.parsley.cdo.feature.source" version="0.0.0">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.viatra.query.sdk.feature.source" version="1.7.0.201710311615">
+  <category name="Modeling"/>
+</feature>
+<feature id="org.eclipse.eclemma.feature" version="3.0.1.201710312200">
+  <category name="Testing"/>
+</feature>
+<feature id="org.eclipse.lsp4j.sdk" version="0.3.0">
+  <category name="General Purpose Tools"/>
+</feature>
+<bundle id="org.eclipse.lsp4e" version="0.0.0">
+  <category name="General Purpose Tools"/>
+</bundle>
+<feature id="org.eclipse.userstorage.sdk" version="0.0.0">
+  <category name="Application Development Frameworks"/>
+</feature>
+<feature id="org.eclipse.collections.feature.source" version="9.1.0.v20171211-1450">
+  <category name="Application Development Frameworks"/>
+</feature>
+<!--feature id="org.eclipse.emf.rap.sdk" version="2.14.0.v20171102-0636">
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.rap.feature" version="0.0.0">
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.rap.sdk.feature" version="0.0.0">
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.rap.equinox.target.feature" version="0.0.0">
+  <category name="EclipseRT Target Platform Components"/>
+</feature>
+<feature id="org.eclipse.rap.examples.feature" version="0.0.0">
+  <category name="EclipseRT Target Platform Components"/>
+</feature-->
+
+
+</site>
